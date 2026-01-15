@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: inherit;
+  min-height: 100vh;
+
+  /* BACKGROUND LAMA – JANGAN DIUBAH */
+  background: url("../images/bg.png") no-repeat center center fixed;
+  background-size: cover;
+
+  color: #fff;
+}
+
+h1, h2, h3, p {
+  line-height: 1.3;
+}
