@@ -2,20 +2,35 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8">
+  <title>Neo Agent Web (Demo)</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Toko Hidup Cuan</title>
 
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
 
-  <!-- USER INFO -->
-  <div id="user-info"></div>
+  <div class="container">
+    <div class="board">
+      <h2 class="title">Masukkan Data Anda</h2>
 
-  <!-- DEPOSIT -->
-  <h2 class="title">Top Up Chip</h2>
-  <div id="deposit-list" class="grid"></div>
+      <label>Neo ID</label>
+      <input id="neoId" type="text" placeholder="Neo ID">
 
-  <script src="assets/java.js"></script>
+      <div id="neoError" class="error"></div>
+
+      <label>No. WhatsApp</label>
+      <input id="whatsapp" type="text" placeholder="No. WhatsApp">
+
+      <div id="waError" class="error"></div>
+
+      <div id="status" class="status"></div>
+
+      <button id="submitBtn">
+        <img src="img/konfirmasi.png" alt="Konfirmasi">
+      </button>
+    </div>
+  </div>
+
+  <script src="assets/app.js"></script>
 </body>
 </html>
