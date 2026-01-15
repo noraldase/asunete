@@ -1,0 +1,68 @@
+@font-face {
+  font-family: 'KlavikaBold';
+  src: url('../fonts/klavika-bold.otf') format('opentype');
+  font-weight: bold;
+}
+
+body {
+  background: #0b0b0b;
+  font-family: Arial, sans-serif;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.board {
+  background: #1b1b1b;
+  border-radius: 12px;
+  padding: 20px;
+  width: 360px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.6);
+}
+
+.title {
+  text-align: center;
+  font-family: 'KlavikaBold';
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-top: 12px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  margin-top: 4px;
+}
+
+button {
+  margin-top: 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+button img {
+  width: 150px;
+}
+
+.error {
+  color: #ff6b6b;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.status {
+  margin-top: 10px;
+  text-align: center;
+  font-weight: bold;
+}
